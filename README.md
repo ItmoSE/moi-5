@@ -1,4 +1,4 @@
-# MOI - LR3 Path Tracing
+# MOI - Path Tracing
 
 Репозиторий содержит минимальный физически корректный рендерер глобального освещения методом трассировки путей для треугольных сеток.
 
@@ -27,7 +27,7 @@
 ## Быстрый запуск
 
 ```bash
-/Users/kdo/Desktop/MOI/.venv/bin/python path_tracer.py \
+python path_tracer.py \
 	--scene manual \
 	--width 600 --height 600 \
 	--spp 64 --max-depth 8 \
@@ -38,7 +38,7 @@
 ## Запуск со сценой из OBJ
 
 ```bash
-/Users/kdo/Desktop/MOI/.venv/bin/python path_tracer.py \
+python path_tracer.py \
 	--scene obj \
 	--obj-path /absolute/path/to/model.obj \
 	--width 600 --height 600 \
@@ -80,4 +80,3 @@ python3 lr5_filters.py \
 - Минимальное итоговое разрешение для отчета: не меньше `500x500`.
 - Для защиты можно менять параметры сцены и рендера через CLI без изменения кода.
 - Подробное описание алгоритма и корректности приведено в `REPORT.md`.
-# moi-5

@@ -1,0 +1,12 @@
+[project]
+name = "moi"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "gen>=0.1.30",
+    "matplotlib>=3.10.8",
+    "numpy>=2.3.4",
+    "scipy>=1.17.1",
+]
